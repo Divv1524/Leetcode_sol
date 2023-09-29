@@ -16,6 +16,7 @@ class movezero {
             {
                 System.out.println(nums[i]);
             }
+            return ;
         }
         for(int i=j+1;i<n;i++)
         {
