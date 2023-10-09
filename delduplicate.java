@@ -22,7 +22,9 @@ class Solution {
             {
                 curr=curr.next;
             }
-           else {
+           else 
+            
+            {
                 prev.next=curr;
                 prev=curr;
                 curr=prev.next;
