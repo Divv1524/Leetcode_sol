@@ -8,9 +8,12 @@ class Solution {
         {
             mid=(b+l)/2;
             if(target==nums[mid])
+            {
               return mid;
               else if(target>nums[mid])
               b=mid+1;
+
+                
             else
               l=mid-1;
         }
