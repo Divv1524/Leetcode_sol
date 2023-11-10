@@ -19,7 +19,8 @@ class Solution {
 
         }
 
-        if(sum / 2 != 0) sb.append(1);
+        if(sum / 2 != 0) 
+            sb.append(1);
         return sb.reverse().toString();
     }
 }
